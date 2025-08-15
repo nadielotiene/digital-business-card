@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #23252C;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+.header,
+.main,
+.footer {
+    background-color: #1A1B21;
+    margin: 0 2rem;
+    width: 318px;
+}
+
+.user__img {
+    /* https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit */
+    width: 317px;
+}
+
+.user-name__h {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.user-role__p {
+    color: #F3BF99;
+    font-size: 13px;
+}
+
+.user-website {
+    color: #F5F5F5;
+    font-size: 10px;
+}
+
+.contact__btn--div {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 9px 13px 11px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 34px;
+    width: 115px;
+}
+
+.email__btn {
+    background-color: #F5F5F5;
+    color: #161619;
+    margin-right: 8px;
+}
+
+.linkedin__btn {
+    background-color: #5093E2;
+    color: #FFF;
+}
+
+/* .email__img,
+.linkedin__img {
+    width: 16px;
+    height: 16px;
+} */
+
+.main__text {
+    text-align: start;
+}
+
+.about__h,
+.interests__h {
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+.about__p,
+.interests__p {
+    color: #DCDCDC;
+    font-size: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    height: 64px;
+    width: 317px;
+}
+
+.footer__img {
+    width: 25px;
+    margin: .5rem;
+}
